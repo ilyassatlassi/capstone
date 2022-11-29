@@ -6,7 +6,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: ;
 }
 
 li {
@@ -14,7 +13,7 @@ li {
 }
 
 .first-nav {
-  background-color: black;
+  background-color: #272a31;
 }
 
 .first-nav-content {
@@ -27,4 +26,20 @@ li {
 .first-nav-content li{
   list-style: none;
   color: azure;
+}
+
+.second-nav {
+  display: flex;
+  margin-left: 10%;
+}
+
+.second-nav .logo {
+
+}
+
+.second-nav-content {
+  display: flex;
+  justify-content: s;
+  gap: 20px; 
+  margin-left: 8%;
 }
