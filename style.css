@@ -27,7 +27,7 @@ li {
   align-items: center;
 }
 
-.first-nav-content li{
+.first-nav-content li {
   list-style: none;
   color: azure;
 }
@@ -94,6 +94,9 @@ h1 {
   align-items: center;
   padding-top: 3rem;
   background-image: url(./images/main.background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: #272a32;
   color: #f7f7f7;
   height: 90vh;
@@ -194,13 +197,17 @@ h1 {
   display: none;
 }
 
+.delete {
+  
+}
+
 @media screen and (max-width: 768px) {
   .first-nav {
     display: none;
   }
 
   .second-nav {
-    display: none;
+   display: none;
   }
 
   .toolbar {
@@ -208,6 +215,59 @@ h1 {
     border: none;
     background-color: #fff;
     cursor: pointer;
+  }
 
+  .headline {
+    padding: 10px;
+  }
+
+  .h1 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .headlin-description {
+    width: 90%;
+  }
+
+  .main-program {
+    height: auto;
+    padding-bottom: 10px;
+
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .active {
+    position: fixed;
+    inset: 0;
+    display: none;
+    flex-direction: column;
+    background: #ee523c;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(15px);
+    z-index: 2;
+    padding: 106px 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: inherit;
+  }
+
+  .delete {
+    display: block;
+    width: 14px;
+    height: 14px;
+    right: 37px;
+    top: 60px;
+    position: absolute;
+    background-image: url(images/Icon.png);
+    background-color: #ee523c;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
   }
 }
