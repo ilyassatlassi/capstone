@@ -38,10 +38,6 @@ li {
   align-items: center;
 }
 
-.second-nav .logo {
-
-}
-
 .second-nav-content {
   display: flex;
   gap: 20px; 
@@ -66,15 +62,7 @@ li {
   background-image: url('./images/background-headlin.svg');
   padding: 100px;
   font-family: 'lato', sans-serif;
-  
 }
-
-/* .headline-content {
-  width: 100%;
-  height: 100%;
-  min-height: 90vh;
-  max-width: 800px;
-} */
 
 h1 {
   color: #ee523c;
@@ -100,10 +88,6 @@ h1 {
   background-color: #272a32;
   color: #f7f7f7;
   height: 90vh;
-}
-
-.title-program {
-  
 }
 
 .cards {
@@ -197,9 +181,66 @@ h1 {
   display: none;
 }
 
-.delete {
-  
+.maincardsec {
+  height: 98%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 10%;
+  gap: 10%;
 }
+
+.main-page-1 {
+  color: #f7f7f7;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.border-c {
+  color: black;
+}
+
+.border {
+  width: 4rem;
+  height: 2px;
+  margin: 10px 46%;
+  border-bottom: 1px solid #ee523c;
+}
+
+.maincard {
+  height: 16rem;
+  display: grid;
+  grid-template-columns: 9.6rem 16rem;
+}
+
+.imagediv img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 16px;
+  top: 27px;
+}
+
+.imagediv {
+  background-image: url(./images/pngegg.png);
+  background-repeat: round;
+  width: 65px;
+  height: 65px;
+}
+
+.maintextdiv h2 {
+  color: black;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.maintextdiv h3 {
+  font-size: 13px;
+  color: #ee523c;
+}
+
 
 @media screen and (max-width: 768px) {
   .first-nav {
@@ -219,6 +260,7 @@ h1 {
 
   .headline {
     padding: 10px;
+    height: 100vh;
   }
 
   .h1 {
@@ -243,7 +285,7 @@ h1 {
   .active {
     position: fixed;
     inset: 0;
-    display: none;
+    display: flex;
     flex-direction: column;
     background: #ee523c;
     mix-blend-mode: multiply;
@@ -269,5 +311,26 @@ h1 {
     background-size: cover;
     border: none;
     cursor: pointer;
+  }
+
+  .maincardsec {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+ 
+  }
+
+  .maincard {
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .maintextdiv {
+    margin: 60px 0;
   }
 }
