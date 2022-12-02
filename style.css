@@ -40,7 +40,7 @@ li {
 
 .second-nav-content {
   display: flex;
-  gap: 20px; 
+  gap: 20px;
   margin-left: 8%;
   align-items: center;
   padding: 10px;
@@ -128,11 +128,10 @@ h1 {
   transition: 1s all;
 }
 
-.img-card img{
+.img-card img {
   width: 50px;
   height: 50px;
   align-items: center;
-  
 }
 
 .title-card {
@@ -142,7 +141,21 @@ h1 {
 
 .description-card {
   font-size: 15px;
+}
 
+.imagediv img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 16px;
+  top: 27px;
+}
+
+.imagediv {
+  background-image: url(./images/pngegg.png);
+  background-repeat: round;
+  width: 65px;
+  height: 65px;
 }
 
 .partner {
@@ -215,21 +228,6 @@ h1 {
   grid-template-columns: 9.6rem 16rem;
 }
 
-.imagediv img {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  left: 16px;
-  top: 27px;
-}
-
-.imagediv {
-  background-image: url(./images/pngegg.png);
-  background-repeat: round;
-  width: 65px;
-  height: 65px;
-}
-
 .maintextdiv h2 {
   color: black;
   font-size: 1.2rem;
@@ -241,14 +239,13 @@ h1 {
   color: #ee523c;
 }
 
-
 @media screen and (max-width: 768px) {
   .first-nav {
     display: none;
   }
 
   .second-nav {
-   display: none;
+    display: none;
   }
 
   .toolbar {
@@ -275,7 +272,6 @@ h1 {
   .main-program {
     height: auto;
     padding-bottom: 10px;
-
   }
 
   .cards {
@@ -318,7 +314,6 @@ h1 {
     width: 100%;
     justify-content: center;
     flex-direction: column;
- 
   }
 
   .maincard {
@@ -331,6 +326,6 @@ h1 {
   }
 
   .maintextdiv {
-    margin: 60px 0;
+    margin: 60px 1px;
   }
 }
