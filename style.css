@@ -56,6 +56,7 @@ li {
 
 .second-nav-content a {
   text-decoration: none;
+  color: #303135;
 }
 
 .nav-button {
@@ -206,16 +207,6 @@ h2.second {
   height: 50%;
 }
 
-.right img {
-  width: 80%;
-  height: 100%;
-}
-
-.left {
-  width: 80%;
-  height: 100%;
-}
-
 .Partner-logo li img {
   width: 5.5rem;
 }
@@ -249,7 +240,7 @@ h2.second {
 }
 
 .border-c {
-  color:  #272A31;
+  color: #272a31;
   font-size: 25px;
   font-weight: 500;
 }
@@ -257,8 +248,8 @@ h2.second {
 .border {
   width: 4rem;
   height: 2px;
-  margin: 10px 46%;
-  border-bottom: 1px solid #ee523c;
+  margin: 10px 43%;
+  border-bottom: 1px solid var(--primary-orange);
 }
 
 .maincard {
@@ -337,13 +328,6 @@ h2.second {
   display: flex;
   flex-direction: row;
   gap: 10px;
-}
-
-.border {
-  width: 4rem;
-  height: 2px;
-  margin: 10px 43%;
-  border-bottom: 1px solid var(--primary-orange);
 }
 
 .card-1-m {
@@ -537,5 +521,5 @@ h2.second {
     top: 11px;
     width: 100%;
     color: #f7f7f7;
-}
+  }
 }

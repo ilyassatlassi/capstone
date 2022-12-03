@@ -24,8 +24,6 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>Microverse README Template</b></h3>
 
@@ -78,7 +76,7 @@ After you're finished please remove all the comments and instructions!
 > Describe between 1-3 key features of the application.
 
 - **[Functionality_to_navbar]**
-- **[Dynamic_page_Featured_Game]**
+- **[Dynamic_page]**
 - **[Separate_create_Home_About]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,6 +148,9 @@ Example command:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+- **[Functionality_to_navbar]**
+- **[Dynamic_page]**
+- **[Separate_create_Home_About]**
 
 Feel free to check the [issues page](../../issues/).
 
