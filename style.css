@@ -9,6 +9,13 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --primary-orange: #f75d44;
+  --primary-orange-2: #f25f33;
+  --primary-gray: #444140;
+  --primary-main: #272a32;
+}
+
 li {
   list-style: none;
 }
@@ -47,6 +54,10 @@ li {
   padding: 10px;
 }
 
+.second-nav-content a {
+  text-decoration: none;
+}
+
 .nav-button {
   background-color: white;
   color: #ee523c;
@@ -60,9 +71,11 @@ li {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  background-image: url('./images/background-headlin.svg');
+  background-image: url('./images/hero-bg.png');
   padding: 100px;
   font-family: 'lato', sans-serif;
+  max-width: 100%;
+  height: 110vh;
 }
 
 h2.first {
@@ -169,6 +182,7 @@ h2.second {
 .partner {
   min-height: 220px;
   background-color: #474a51;
+  padding-top: 40px;
 }
 
 .Partner-logo {
@@ -197,7 +211,7 @@ h2.second {
   height: 100%;
 }
 
-.left img {
+.left {
   width: 80%;
   height: 100%;
 }
@@ -223,7 +237,7 @@ h2.second {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 0 10%;
+  padding: 5% 10%;
 }
 
 .main-page-1 {
@@ -235,8 +249,9 @@ h2.second {
 }
 
 .border-c {
-  color: black;
-  font-size: 30px;
+  color:  #272A31;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .border {
@@ -322,6 +337,66 @@ h2.second {
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+.border {
+  width: 4rem;
+  height: 2px;
+  margin: 10px 43%;
+  border-bottom: 1px solid var(--primary-orange);
+}
+
+.card-1-m {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(224, 104, 104, 0.6);
+}
+
+.card-1-m:hover {
+  background-color: transparent;
+}
+
+.card-1-m h1 {
+  position: relative;
+  left: 0;
+  top: 11px;
+  bottom: -17px;
+}
+
+.card-1-m p {
+  position: relative;
+  left: 0;
+  top: 11px;
+  width: 100%;
+  color: #f7f7f7;
+}
+
+.left {
+  width: 55vh;
+  height: 260px;
+  margin-top: 12px;
+  background-image: url(./images/seven.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 10rem;
+}
+
+.right {
+  width: 55vh;
+  height: 260px;
+  margin-top: 12px;
+  background-image: url(./images/eight.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 10rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -455,4 +530,12 @@ h2.second {
   .details-about-2 {
     display: block;
   }
+
+  .card-1-m p {
+    position: relative;
+    left: 0;
+    top: 11px;
+    width: 100%;
+    color: #f7f7f7;
+}
 }

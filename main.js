@@ -58,7 +58,7 @@ const featured = [
   },
 ];
 
-const featuresec = document.createElement('h1');
+const featuresec = document.createElement('h2');
 featuresec.innerText = 'Featured';
 featuresec.classList.add('main-page-1');
 featuresec.classList.add('border-c');
