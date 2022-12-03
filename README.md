@@ -31,9 +31,12 @@ You will need to clone the url from the source repository and run the following 
 git clone https://github.com/ilyassatlassi/capstone.git
 
 
+## Live Demo
+
+- [@demo](https://ilyassatlassi.github.io/capstone/)
 ## Outline
 
-- [@demo](https://www.loom.com/share/c9d1cdea8e4141ac81eecb4c591c5987)
+- [@demo](https://www.loom.com/share/82fa1c03e5dc437db1f950a4d2227abd))
 ## Author
 
 👤 ilyass atlassi

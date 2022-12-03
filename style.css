@@ -25,6 +25,7 @@ li {
   gap: 10px;
   margin-right: 10%;
   align-items: center;
+  padding-top: 4px;
 }
 
 .first-nav-content li {
@@ -54,7 +55,7 @@ li {
   width: 150px;
 }
 
-.headline {
+.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,10 +65,16 @@ li {
   font-family: 'lato', sans-serif;
 }
 
+h2.first{
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #ee523c;
+}
+
 h1 {
   color: #ee523c;
-  font-size: 2rem;
-  line-height: 2.8rem;
+  font-size: 2.8rem;
+  line-height: 3rem;
   font-family: 'COCOGOOSE', sans-serif;
   padding-bottom: 18px;
 }
@@ -76,15 +83,18 @@ h1 {
   width: 50%;
 }
 
+h2.second {
+  color: #606060;
+  font-weight: 700;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
 .main-program {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 3rem;
   background-image: url(./images/main.background.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   background-color: #272a32;
   color: #f7f7f7;
   height: 90vh;
@@ -93,8 +103,6 @@ h1 {
 .cards {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 70%;
   padding-top: 3rem;
   gap: 10px;
 }
@@ -110,13 +118,13 @@ h1 {
 }
 
 .card-1 {
-  height: 17rem;
+  height: 16rem;
   display: grid;
   grid-template-columns: none;
   grid-template-rows: 4rem 5rem 6rem;
   justify-items: center;
   margin: 0;
-  width: 9rem;
+  width: 13rem;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
@@ -160,7 +168,11 @@ h1 {
 
 .partner {
   min-height: 220px;
-  background-color: rgb(71, 64, 81);
+  background-color: #474a51;
+}
+
+.partner h3 {
+  color: rgb(191, 187, 182);
 }
 
 .Partner-logo {
@@ -171,7 +183,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  column-gap: 1.2rem;
+  column-gap: 3rem;
 }
 
 .Partner-logo li {
@@ -200,7 +212,6 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 0 10%;
-  gap: 10%;
 }
 
 .main-page-1 {
@@ -213,6 +224,7 @@ h1 {
 
 .border-c {
   color: black;
+  font-size: 30px;
 }
 
 .border {
@@ -229,7 +241,7 @@ h1 {
 }
 
 .maintextdiv h2 {
-  color: black;
+  color: #272a31;
   font-size: 1.2rem;
   line-height: 2rem;
 }
@@ -237,6 +249,25 @@ h1 {
 .maintextdiv h3 {
   font-size: 13px;
   color: #ee523c;
+}
+
+.maintextdiv p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  gap: 80px;
+}
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -255,7 +286,7 @@ h1 {
     cursor: pointer;
   }
 
-  .headline {
+  .about {
     padding: 10px;
     height: 100vh;
   }
@@ -314,18 +345,51 @@ h1 {
     width: 100%;
     justify-content: center;
     flex-direction: column;
+    padding: 1px;
   }
 
   .maincard {
     width: 100%;
     height: 14rem;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     gap: 12px;
     margin-top: 10px;
   }
 
   .maintextdiv {
-    margin: 60px 1px;
+    width: 60%;
+  }
+
+  .card-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 93px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .description-card {
+    font-size: 12px;
+    width: 50%;
+  }
+
+  .Partner-logo {
+    column-gap: 1.2rem;
+  }
+
+  h2.second {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .footer-second {
+    display: none;
+  }
+
+  .footer {
+    padding: 40px 5px;
+    gap: 20px;
   }
 }
