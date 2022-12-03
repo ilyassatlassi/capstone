@@ -187,6 +187,21 @@ h2.second {
   list-style: none;
 }
 
+.logo-about img {
+  width: 50%;
+  height: 50%;
+}
+
+.right img {
+  width: 80%;
+  height: 100%;
+}
+
+.left img {
+  width: 80%;
+  height: 100%;
+}
+
 .Partner-logo li img {
   width: 5.5rem;
 }
@@ -265,6 +280,48 @@ h2.second {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.about-1 {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-description {
+  width: 70%;
+}
+
+.contact a {
+  color: #303135;
+  margin-top: 20px;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.main-about p {
+  width: 30%;
+  color: #5c5656;
+}
+
+.footer-about {
+  background-color: #303135;
+  color: #fff;
+}
+
+.details-about-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -388,5 +445,14 @@ h2.second {
   .footer {
     padding: 40px 5px;
     gap: 20px;
+  }
+
+  .main-about p {
+    width: 100%;
+    color: #5c5656;
+  }
+
+  .details-about-2 {
+    display: block;
   }
 }
